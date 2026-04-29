@@ -28,7 +28,34 @@ The project evaluates execution time, scalability, and speedup using both naive 
 
 ## Project Structure
 
-HPC-Vision/ │ ├── cuda/ │   ├── matrix_cuda_naive.cu │   └── matrix_cuda_tiled.cu │ ├── opencl/ │   ├── matrix_kernel.cl │   └── matrix_opencl.c │ ├── openmp/ │   ├── matrix_openmp.c │   └── matrix_serial.c │ ├── python_modules/ │   ├── plot_results.py │   ├── plot_gpu_comparison.py │   ├── plot_speedup_architecture.py │   └── plot_thread_scaling.py │ ├── datasets/ │   └── generate_matrices.py │ ├── main.py ├── run_all.sh └── .gitignore
+```
+HPC-Vision/
+│
+├── cuda/
+│   ├── matrix_cuda_naive.cu
+│   └── matrix_cuda_tiled.cu
+│
+├── opencl/
+│   ├── matrix_kernel.cl
+│   └── matrix_opencl.c
+│
+├── openmp/
+│   ├── matrix_openmp.c
+│   └── matrix_serial.c
+│
+├── python_modules/
+│   ├── plot_results.py
+│   ├── plot_gpu_comparison.py
+│   ├── plot_speedup_architecture.py
+│   └── plot_thread_scaling.py
+│
+├── datasets/
+│   └── generate_matrices.py
+│
+├── main.py
+├── run_all.sh
+└── .gitignore
+```
 
 ---
 
